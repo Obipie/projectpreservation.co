@@ -1,0 +1,204 @@
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 480px;
+  height: auto;
+}
+
+.Navi {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #009900;
+  font-family: montserrat,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+.Navi hr{
+  margin: 30px -20px 20px;
+  border: 0;
+  border-top: 1px solid #009900;
+}
+
+.Navi p,a {
+  text-decoration: none;
+}
+
+#Home {
+  transition: .4s;
+}
+
+#Home:hover {
+  box-shadow: 0 3px 0 #FFFFFF;
+}
+
+#Trips {
+  transition: .4s;
+}
+
+#Trips:hover {
+  box-shadow: 0 3px 0 #FFFFFF;
+}
+
+#AboutUs {
+  transition: .4s;
+}
+
+#AboutUs:hover {
+  box-shadow: 0 3px 0 #FFFFFF;
+}
+
+#Merch {
+  transition: .4s;
+}
+
+#Merch:hover {
+  box-shadow: 0 3px 0 #FFFFFF;
+}
+
+#Ads {
+  transition: .4s;
+}
+
+#Ads:hover {
+  box-shadow: 0 3px 0 #FFFFFF;
+}
+
+.IntroPassage {
+  text-align: left;
+  font-family: roboto,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.underline {
+  text-decoration: none;
+  position: relative;
+  font-family: input-serif, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.underline:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  bottom: -4px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 50%;
+  background: #a5f5a5;
+
+  -o-transition:0.5s;
+  -mx-transition:0.5s;
+  -mox-transition:0.5s;
+  -webkit-transition:0.5s;
+  transition:0.5s;
+}
+
+.underline:hover:after {
+  width: 90%;
+  background: #009900;
+}
+
+
+.Footer {
+  width: 100%;
+  bottom: 0px;
+  border: 1px solid #009900;
+  background-color:#009900;
+  color: #FFFFFF;
+  font-family: montserrat,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.Footer a {
+  text-decoration: underline;
+}
+
+.AboutUsSection {
+  display: block;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#leftp {
+  text-align: left;
+  font-family: roboto,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+}
+
+#rightp {
+  text-align: right;
+  font-family: roboto,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+}
+
+#rightimg {
+  float: right;
+}
+
+#leftimg {
+  float: left;
+}
+
+#AdTitles {
+  text-align: center;
+  font-family: acumin-pro,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+div.gallery {
+  align-content: center;
+}
+
+
+div.gallery img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
+
+div.merchgallery {
+  align-content: center;
+}
+
+
+div.merchgallery img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+  height: auto;
+}
+
+div.desc {
+  text-align: center;
+  font-family: acumin-pro,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 21px;
+}
+
+.ExtraImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
