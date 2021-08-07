@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Home Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://use.typekit.net/gfs5mtq.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<style>
+.mySlides {display:none;}
+h1 {
+  padding-left: 15px;
+  font-family: six-hands-black, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+}
+
+h2 {
+  text-align: center;
+  font-family: six-hands-black, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+
+}
+</style>
+
+</head>
+
+<body>
+
+<!--Logo-->
+<a href="index.html">
+  <img src="logo_size.jpg" alt="Logo" width="480" height="80" id="logo">
+</a>
+
+<!-- Header -->
+<div class="Navi">
+  <hr>
+  <p>
+    <a href="index.html" id="Home">Home</a>
+    |
+    <a href="trips.html" id="Trips">Trips</a>
+    |
+    <a href="aboutus.html" id="AboutUs">About Us</a>
+    |
+    <a href="merch.html" id="Merch">Merch</a>
+    |
+    <a href="ads.html" id="Ads">Advertisements</a>
+  </p>
+  <hr>
+</div>
+
+<!-- Part of Website they are on -->
+
+<div class="Title">
+  <h1>Home</h1>
+</div>
+<!-- Image Carousel -->
+<div class="w3-content w3-section" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="1.jpg" style="width:100%; height: auto;">
+  <img class="mySlides w3-animate-fading" src="2.jpg" style="width:100%; height: auto;">
+  <img class="mySlides w3-animate-fading" src="3.jpg" style="width:100%; height: auto;">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); 
+}
+</script>
+
+<!-- Paragraph -->
+<div class="IntroPassage">
+  <p>Welcome to Project Preservation! Our goal is to clean up heavily polluted areas of the world by providing funds to the local community. We are determined to maintain the beauty of the world! 
+<a href="aboutus.html" class="underline">Find out more about us >>></a></p>
+</div>
+
+  <!-- Instagram Integration -->
+<div class="SectionHeading">
+  <h2>Instagram Feed</h2>
+</div>
+
+<div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'xuPG6c1A0Lxn9yT2-SXv'});Pixlee.addSimpleWidget({widgetId:'33778'});};</script><script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
+
+<!-- Footer -->
+<div class="Footer">
+  <p>Address: Juneau, AK 99801</p>
+  <p>Email: <a href="mailto:projectpreservation1@gmail.com"> projectpreservation1@gmail.com</a></p>
+  <p>Phone: <a href="tel:+1-123-456-7890">+1-123-456-7890</a></p>
+</div>
+</body>
+</html>
